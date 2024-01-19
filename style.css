@@ -1,0 +1,156 @@
+* {
+
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: large;
+  }
+  
+  nav {
+    background-color: #443f3f;
+    color: white;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 30%;
+        grid-template-columns: 60% 30%;
+    -webkit-column-gap: 10%;
+            column-gap: 10%;
+    padding: 0% 5%;
+  }
+  
+  nav .array-inputs {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 40%;
+        grid-template-columns: 60% 40%;
+    place-content: center;
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_size{
+    padding: 5% 0%;
+    border-radius: 5px;
+    
+  }
+  
+  nav .array-inputs #a_speed {
+ 
+    padding: 5% 0%;
+  }
+  
+  nav .array-inputs #a_generate {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5% 0% 0% 9%;
+    padding-left: 55%;
+  }
+  
+  nav .array-inputs #a_generate:hover {
+    cursor: pointer;
+  }
+
+nav .header_right {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+nav .header_right .nav-heading {
+    display: inline-block;
+    font-size: xxx-large;
+    padding: 3% 20%;
+    text-align: center;
+    
+  }
+
+  nav .header_right .algos {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (6, 16.66667%);
+        grid-template-columns: repeat(6, 16.66667%);
+    place-content: center;
+    padding: 2% 0%;
+  }
+
+nav .header_right .algos button{
+    background-color: transparent;
+    border: none;
+    color:white;
+    outline: none;
+    padding: 5% 0%;
+    font-size: large;
+}
+
+nav .header_right .algos button:hover {
+    background-color: rgba(255, 166, 0, 0.527);
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_locked:hover {
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_selected {
+    background-color: white;
+    color: green;
+  }
+  
+  nav .header_right .algos .butt_selected:hover {
+    background-color: white;
+    cursor: pointer;
+  }
+  
+  nav .header_right .algos .butt_unselected:hover {
+    background-color: orange;
+    cursor: pointer;
+  }
+
+section  {
+        display: -ms-grid;
+        display: grid;
+        -ms-grid-columns: 15% 70% 10%;
+            grid-template-columns: 15% 70% 10%;
+      }
+
+section #Info_Cont1{
+    padding: 10%;
+}
+
+section #array_container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: flex-end;
+    
+/* align-self: center;
+    vertical-align: bottom;*/
+    /*flex container 
+    enables a flex context for all its direct children.*/
+    width:100%;
+    height:70vh;/*viewport height  
+    1vh is equal to 1% of the width of the viewport. 
+    the value remains consistent for all elements regardless of their parent elements or parent elements width.*/
+}
+
+section #Info_Cont2{
+    padding: 10%;
+}
+
+.hide{
+    display: none;
+}
+
